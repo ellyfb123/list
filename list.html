@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+	<div class="list">
+		<input type="text" class="input-item" placeholder="Add New Item...">
+		<div class="list-show">
+			<ul>
+			</ul>
+		</div>
+	</div>
+</body>
+</html>
+<script src="js/jquery-1.11.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.myList.js"></script>
+<script>
+	$(document).ready(function(){
+		$(".list").myList();
+	});
+</script>
+

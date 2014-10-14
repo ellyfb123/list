@@ -1,0 +1,48 @@
+*{
+	margin:0;
+	padding:0;
+}
+.list{
+	width: 350px;
+	margin:30px auto 0;
+}
+.glyphicon-ok{
+	color:grey;
+}
+.glyphicon-remove{
+	color:red;
+}
+.list input{
+	width: 300px;
+	height: 30px;
+}
+.list input:focus{
+	outline: none;
+}
+.list div{
+	border:1px solid #b3b5b3;
+	width: 300px;
+	height: 300px;
+	margin-top:8px;
+	overflow: scroll;
+}
+.list ul{
+	list-style-type: none;
+}
+.list ul li{
+	border-bottom: 1px solid #b3b5b3;
+	height: 30px;
+	line-height: 30px;
+}
+.list ul li i{
+	margin-top:5px;
+}
+.list ul li i:first-of-type{
+	float:left;
+}
+.list ul li i:nth-of-type(2){
+	float:right;
+}
+.list ul li span{
+	margin-left:30px;
+}
